@@ -72,3 +72,6 @@ module Enumerable
 
 end
 
+a = []
+[1,2,3].my_each{ |i| a << i + 1 }
+p a
